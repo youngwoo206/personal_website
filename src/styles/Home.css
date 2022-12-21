@@ -1,0 +1,10 @@
+.home{
+    background-color: darkgray;
+    height: 100vh;
+    display: flex;
+}
+
+.intro{
+    margin-left: auto;
+    margin-right: auto;
+}
