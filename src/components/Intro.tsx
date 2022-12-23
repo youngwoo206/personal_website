@@ -6,15 +6,20 @@ function Intro() {
     <div className="intro">
     <h1>Hi, I'm Youngwoo</h1>
     <p>
-      I'm a {''}
       <Typical
         loop={Infinity}
         wrapper='p'
         steps={[
-          ' developer',
-          2000,
-          ' eng student',
-          2000,
+            'software developer',
+            2000,
+            'engineering student',
+            2000,
+            'lifelong learner',
+            2000,
+            'lego enthusiast',
+            2000,
+            'raptors fan',
+            2000,
         ]}
       /> 
     </p>
