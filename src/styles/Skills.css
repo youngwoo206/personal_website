@@ -1,0 +1,14 @@
+.skills{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+.active-content{
+    display: block;
+}
+
+.content{
+    display: none;
+}
