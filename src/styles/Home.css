@@ -3,10 +3,14 @@
 }
 
 .intro{
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 95vh;
 }
 
+.about-me{
+    text-align: center;
+    height: 50vh;
+}
