@@ -1,7 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
 import Typical from "react-typical";
+import { CaretDown, CaretDownFill } from "react-bootstrap-icons";
 
 function Intro() {
+  const [hover, setHover] = useState(false);
+
   return (
     <div className="intro">
       <h1>Hi, I'm Youngwoo</h1>
@@ -23,6 +26,13 @@ function Intro() {
           ]}
         />
       </p>
+      <div
+        className="down-arrow"
+        onMouseEnter={() => setHover(true)}
+        onMouseLeave={() => setHover(false)}
+      >
+        {hover ? <CaretDownFill size={30} /> : <CaretDown size={30} />}
+      </div>
     </div>
   );
 }
