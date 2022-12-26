@@ -11,15 +11,15 @@ function Intro() {
           wrapper="p"
           steps={[
             "software developer",
-            2000,
+            2500,
             "engineering student",
-            2000,
+            3000,
             "lifelong learner",
-            2000,
+            2500,
             "lego enthusiast",
-            2000,
+            2500,
             "raptors fan",
-            2000,
+            2500,
           ]}
         />
       </p>
