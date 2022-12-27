@@ -5,6 +5,21 @@
     justify-content: center;
 }
 
+.skills-grid{
+  margin: 0 auto;
+  margin-top: 20px;
+  max-width: 90%;
+  display: grid;
+  gap: 1rem;
+  background-color: aliceblue;
+}
+
+@media (min-width: 1250px){
+  .skills-grid{
+    grid-template-columns: repeat(2,1fr);
+  }
+}
+
 .skill-container{
     display: flex;
     flex-direction: column;
