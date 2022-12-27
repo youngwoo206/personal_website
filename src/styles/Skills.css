@@ -11,7 +11,8 @@
   max-width: 90%;
   display: grid;
   gap: 1rem;
-  background-color: aliceblue;
+  /* background-color: aliceblue; */
+  align-items: center;
 }
 
 @media (min-width: 1250px){
@@ -24,11 +25,12 @@
     display: flex;
     flex-direction: column;
     position: relative;
-    width: 500px;
+    width: 450px;
     height: 300px;
-    border: black 1px solid;
+    /* border: black 1px solid; */
     margin-left: auto;
     margin-right: auto;
+    /* background-color: blueviolet; */
 }
 
 .bloc-tabs{
@@ -39,20 +41,14 @@
     padding: 15px;
     text-align: center;
     width: 50%;
-    background: rgba(128, 128, 128, 0.075);
     cursor: pointer;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.274);
     box-sizing: content-box;
     position: relative;
     outline: none;
+    border: black solid 1px;
+    border-radius: 20px;
+    margin-left: 10px;
 }
-.tabs:not(:last-child){
-    border-right: 1px solid rgba(0, 0, 0, 0.274);
-  }
-  
-  .active-tabs  {
-    border-bottom: 1px solid transparent;
-  }
   
   .active-tabs::before {
     content: "";
