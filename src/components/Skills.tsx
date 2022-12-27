@@ -1,7 +1,9 @@
 import React, { useState } from "react";
 import "../styles/TextSphere.css";
 import "../styles/Skills.css";
+
 import TextSphere from "./TextSphere";
+import TopSkills from "./TopSkills";
 
 function Skills() {
   const [tab, setTab] = useState(1);
@@ -42,7 +44,14 @@ function Skills() {
           <div className="content-tabs">
             <div className={tab === 1 ? "content  active-content" : "content"}>
               <h2>Web Development</h2>
-              <p>web dev</p>
+              <TopSkills
+                skill1="JavaScript (React)"
+                stars1={[1, 1, 0.5]}
+                skill2="CSS"
+                stars2={[1, 1, 0.5]}
+                skill3="Firebase"
+                stars3={[1, 1, 0.5]}
+              />
             </div>
 
             <div className={tab === 2 ? "content  active-content" : "content"}>
