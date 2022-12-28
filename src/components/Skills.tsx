@@ -45,11 +45,11 @@ function Skills() {
             <div className={tab === 1 ? "content  active-content" : "content"}>
               <h2>Web Development</h2>
               <TopSkills
-                skill1="JavaScript (React)"
-                stars1={[1, 1, 0.5]}
-                skill2="CSS"
+                skill1="JavaScript"
+                stars1={[1, 1, 1, 1]}
+                skill2="Responsive Web Design"
                 stars2={[1, 1, 0.5]}
-                skill3="Firebase"
+                skill3=""
                 stars3={[1, 1, 0.5]}
               />
             </div>

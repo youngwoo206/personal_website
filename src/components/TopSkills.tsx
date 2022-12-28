@@ -20,6 +20,22 @@ function TopSkills(props: Skills) {
     }
   });
 
+  const starCount2 = props.stars2.map((star) => {
+    if (star == 1) {
+      return <StarFill />;
+    } else if (star == 0.5) {
+      return <StarHalf />;
+    }
+  });
+
+  const starCount3 = props.stars3.map((star) => {
+    if (star == 1) {
+      return <StarFill />;
+    } else if (star == 0.5) {
+      return <StarHalf />;
+    }
+  });
+
   return (
     <div className="top-skills">
       <p>Top Skills</p>
@@ -30,11 +46,11 @@ function TopSkills(props: Skills) {
         </tr>
         <tr>
           <td>{props.skill2}</td>
-          <td>{starCount}</td>
+          <td>{starCount2}</td>
         </tr>
         <tr>
           <td>{props.skill3}</td>
-          <td>{starCount}</td>
+          <td>{starCount3}</td>
         </tr>
       </table>
     </div>
