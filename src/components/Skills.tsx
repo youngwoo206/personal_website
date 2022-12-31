@@ -48,7 +48,7 @@ function Skills() {
                 skill1="JavaScript"
                 stars1={[1, 1, 1, 1]}
                 skill2="Responsive Web Design"
-                stars2={[1, 1, 0.5]}
+                stars2={[1, 1, 1, 0.5]}
                 skill3=""
                 stars3={[1, 1, 0.5]}
               />
