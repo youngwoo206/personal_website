@@ -46,22 +46,42 @@ function Skills() {
               <h2>Web Development</h2>
               <TopSkills
                 skill1="JavaScript"
-                stars1={[1, 1, 1, 1]}
+                stars1={[1, 1, 1, 1, 0.5]}
                 skill2="Responsive Web Design"
                 stars2={[1, 1, 1, 0.5]}
-                skill3=""
-                stars3={[1, 1, 0.5]}
-              />
+                skill3="Backend Technologies"
+                stars3={[1, 1, 1]}
+              >
+                <div>hello</div>
+              </TopSkills>
             </div>
 
             <div className={tab === 2 ? "content  active-content" : "content"}>
               <h2>Software Development</h2>
-              <p>software</p>
+              <TopSkills
+                skill1="Python"
+                stars1={[1, 1, 1, 1]}
+                skill2="Data Structures & Algorithms"
+                stars2={[1, 1, 1, 0.5]}
+                skill3="SQL & DBMS"
+                stars3={[1, 1, 1]}
+              >
+                <div>hello</div>
+              </TopSkills>
             </div>
 
             <div className={tab === 3 ? "content  active-content" : "content"}>
               <h2>Engineering</h2>
-              <p>eng stuff</p>
+              <TopSkills
+                skill1="Microsoft Excel"
+                stars1={[1, 1, 1, 1, 0.5]}
+                skill2="VBA & Macro Development"
+                stars2={[1, 1, 1, 1, 0.5]}
+                skill3="CAD Technologies"
+                stars3={[1, 1, 1, 1, 0]}
+              >
+                <div>hello</div>
+              </TopSkills>
             </div>
           </div>
         </div>

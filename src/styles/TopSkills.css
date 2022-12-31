@@ -2,13 +2,12 @@
     display: flex;
     flex-direction: column;
     width: 80%;
-    background-color: beige;
     margin-left: auto;
     margin-right: auto;
 }
 
 .top-skills-table{
-    background-color: aliceblue;
+    /* background-color: aliceblue; */
     width: 100%;
     border: 1px solid black;
 }

@@ -9,6 +9,7 @@ interface Skills {
   stars2: number[];
   skill3: string;
   stars3: number[];
+  children: JSX.Element;
 }
 
 function TopSkills(props: Skills) {
@@ -38,7 +39,6 @@ function TopSkills(props: Skills) {
 
   return (
     <div className="top-skills">
-      <p>Top Skills</p>
       <table className="top-skills-table">
         <tr>
           <td>{props.skill1}</td>
@@ -53,6 +53,7 @@ function TopSkills(props: Skills) {
           <td>{starCount3}</td>
         </tr>
       </table>
+      {props.children}
     </div>
   );
 }
