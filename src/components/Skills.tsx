@@ -61,7 +61,7 @@ function Skills() {
               <TopSkills
                 skill1="Python"
                 stars1={[1, 1, 1, 1]}
-                skill2="Data Structures & Algorithms"
+                skill2="DS & Algorithms"
                 stars2={[1, 1, 1, 0.5]}
                 skill3="SQL & DBMS"
                 stars3={[1, 1, 1]}
@@ -75,7 +75,7 @@ function Skills() {
               <TopSkills
                 skill1="Microsoft Excel"
                 stars1={[1, 1, 1, 1, 0.5]}
-                skill2="VBA & Macro Development"
+                skill2="VBA & Macros"
                 stars2={[1, 1, 1, 1, 0.5]}
                 skill3="CAD Technologies"
                 stars3={[1, 1, 1, 1, 0]}

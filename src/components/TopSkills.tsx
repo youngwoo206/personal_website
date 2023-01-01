@@ -41,16 +41,16 @@ function TopSkills(props: Skills) {
     <div className="top-skills">
       <table className="top-skills-table">
         <tr>
-          <td>{props.skill1}</td>
-          <td>{starCount}</td>
+          <td className="td1">{props.skill1}</td>
+          <td className="td2">{starCount}</td>
         </tr>
         <tr>
-          <td>{props.skill2}</td>
-          <td>{starCount2}</td>
+          <td className="td1">{props.skill2}</td>
+          <td className="td2">{starCount2}</td>
         </tr>
         <tr>
-          <td>{props.skill3}</td>
-          <td>{starCount3}</td>
+          <td className="td1">{props.skill3}</td>
+          <td className="td2">{starCount3}</td>
         </tr>
       </table>
       {props.children}
