@@ -2,12 +2,15 @@ import React, { useState } from "react";
 import { TypeAnimation } from "react-type-animation";
 import { CaretDown, CaretDownFill } from "react-bootstrap-icons";
 
+import TSParticles from "./tsParticles";
+
 function Intro(props: any) {
   const [hover, setHover] = useState(false);
 
   return (
     <div className="intro">
       <h1>Hi, I'm Youngwoo</h1>
+      {/* <TSParticles /> */}
       <TypeAnimation
         sequence={[
           "software developer",
