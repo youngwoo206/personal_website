@@ -10,7 +10,7 @@ function Intro(props: any) {
   return (
     <div className="intro">
       <h1>Hi, I'm Youngwoo</h1>
-      {/* <TSParticles /> */}
+
       <TypeAnimation
         sequence={[
           "software developer",
@@ -37,6 +37,7 @@ function Intro(props: any) {
       >
         {hover ? <CaretDownFill size={30} /> : <CaretDown size={30} />}
       </div>
+      {/* <TSParticles /> */}
     </div>
   );
 }
