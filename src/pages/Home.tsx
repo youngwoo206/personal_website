@@ -4,6 +4,7 @@ import "../styles/Home.css";
 import Intro from "../components/Intro";
 import AboutMe from "../components/AboutMe";
 import Skills from "../components/Skills";
+import Footer from "../components/Footer";
 
 function Home() {
   const body = useRef(null);
@@ -21,6 +22,7 @@ function Home() {
       <div className="intro-body" ref={body}>
         <AboutMe />
         <Skills />
+        <Footer />
       </div>
     </div>
   );
