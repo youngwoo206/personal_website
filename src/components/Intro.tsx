@@ -2,8 +2,6 @@ import React, { useState } from "react";
 import { TypeAnimation } from "react-type-animation";
 import { CaretDown, CaretDownFill } from "react-bootstrap-icons";
 
-import TSParticles from "./tsParticles";
-
 function Intro(props: any) {
   const [hover, setHover] = useState(false);
 
