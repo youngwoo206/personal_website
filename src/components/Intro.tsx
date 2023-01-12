@@ -1,6 +1,9 @@
 import React, { useState } from "react";
 import { TypeAnimation } from "react-type-animation";
 import { CaretDown, CaretDownFill } from "react-bootstrap-icons";
+import "../styles/Intro.css";
+
+import Chemical from "../assets/chemical.svg";
 
 function Intro(props: any) {
   const [hover, setHover] = useState(false);
@@ -27,6 +30,7 @@ function Intro(props: any) {
         style={{ fontSize: "16px" }}
         cursor={true}
       />
+      <img id="svg-molecule" src={Chemical} alt="molecule" />
       <div
         className="down-arrow"
         onMouseEnter={() => setHover(true)}

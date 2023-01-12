@@ -1,0 +1,21 @@
+.intro{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+}
+
+.down-arrow{
+    color: black;
+    position: absolute;
+    bottom: 10px;
+}
+
+#svg-molecule{
+    width: 100px;
+    position: absolute;
+    top: 300px;
+    left: 300px;
+}
