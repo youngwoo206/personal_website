@@ -4,25 +4,36 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url(../assets//city.jpg);
+    background-image: linear-gradient(to bottom, #a7a7a785, #191919ba), url(../assets//city.jpg);
+    /* background-image: url(../assets//city.jpg); */
     background-size: cover;
 }
 
 .down-arrow{
-    color: black;
+    color: #c4c4c4;
     position: absolute;
     bottom: 10px;
 }
 
 .svg{
     width: 50px;
-    margin-left: 25px;
+    margin-left: 30px;
+    stroke: #c4c4c4;
+    filter: invert(63%) sepia(6%) saturate(2%) hue-rotate(357deg) brightness(96%) contrast(93%);
+    transition: 0.2s ease;
+}
+
+.svg:hover{
+    width: 60px;
+    transition: 0.2s ease;
+    filter: invert(90%) sepia(15%) saturate(9%) hue-rotate(314deg) brightness(89%) contrast(83%);
 }
 
 .icon-grid{
     display: flex;
-    grid-template-columns: auto;
+    justify-content: center;
     margin-top: 15px;
+    height: 60px;
 }
 
 h1{

@@ -8,6 +8,7 @@ import Footer from "../components/Footer";
 
 function Home() {
   const body = useRef(null);
+  const skill = useRef(null);
 
   const scrollToSection = (elementRef: any) => {
     window.scrollTo({
@@ -18,12 +19,14 @@ function Home() {
 
   return (
     <div className="home">
-      <Intro body={body} scrollToSection={scrollToSection} />
-      <div className="intro-body" ref={body}>
+      <Intro body={body} skill={skill} scrollToSection={scrollToSection} />
+      <div ref={body}>
         <AboutMe />
-        <Skills />
-        <Footer />
       </div>
+      <div ref={skill}>
+        <Skills />
+      </div>
+      <Footer />
     </div>
   );
 }

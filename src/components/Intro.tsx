@@ -35,17 +35,42 @@ function Intro(props: any) {
         style={{
           fontSize: "2rem",
           color: "rgb(221, 221, 221)",
-          margin: "20px 0 0 0",
+          margin: "20px 0",
         }}
         cursor={true}
       />
 
       <div className="icon-grid">
-        <img className="svg" src={Js} alt="js" />
-        <img className="svg" src={Python} alt="js" />
-        <img className="svg" src={Excel} alt="js" />
-        <img className="svg" src={Reactjs} alt="js" />
-        <img className="svg" src={Firebase} alt="js" />
+        <img
+          className="svg"
+          src={Js}
+          alt="js"
+          onClick={() => props.scrollToSection(props.skill)}
+        />
+        <img
+          className="svg"
+          src={Python}
+          alt="js"
+          onClick={() => props.scrollToSection(props.skill)}
+        />
+        <img
+          className="svg"
+          src={Excel}
+          alt="js"
+          onClick={() => props.scrollToSection(props.skill)}
+        />
+        <img
+          className="svg"
+          src={Reactjs}
+          alt="js"
+          onClick={() => props.scrollToSection(props.skill)}
+        />
+        <img
+          className="svg"
+          src={Firebase}
+          alt="js"
+          onClick={() => props.scrollToSection(props.skill)}
+        />
       </div>
 
       <div
@@ -54,7 +79,7 @@ function Intro(props: any) {
         onMouseLeave={() => setHover(false)}
         onClick={() => props.scrollToSection(props.body)}
       >
-        {hover ? <CaretDownFill size={30} /> : <CaretDown size={30} />}
+        {hover ? <CaretDownFill size={40} /> : <CaretDown size={40} />}
       </div>
     </div>
   );

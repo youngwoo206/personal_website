@@ -1,12 +1,11 @@
-/* .about-me{
-    width: 80%;
+.about-me{
+    background-color: #171718;
 
-} */
+}
 
 .about-me-grid{
     display: grid;
     width: 80%;
-    background-color: aliceblue;
     margin-left: auto;
     margin-right: auto;
 }
