@@ -4,7 +4,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: aliceblue;
+    background-image: url(../assets//city.jpg);
+    background-size: cover;
 }
 
 .down-arrow{
@@ -26,4 +27,9 @@
 
 h1{
     font-size: 5rem;
+    color: rgb(221, 221, 221);
+}
+#hello{
+    font-size: 4rem;
+    margin-bottom: 20px;
 }

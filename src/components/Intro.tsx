@@ -14,7 +14,8 @@ function Intro(props: any) {
 
   return (
     <div className="intro">
-      <h1>Hi, I'm Youngwoo</h1>
+      <h1 id="hello">Hello there,</h1>
+      <h1> I'm Youngwoo</h1>
 
       <TypeAnimation
         sequence={[
@@ -31,7 +32,11 @@ function Intro(props: any) {
         ]}
         wrapper="div"
         repeat={Infinity}
-        style={{ fontSize: "2rem" }}
+        style={{
+          fontSize: "2rem",
+          color: "rgb(221, 221, 221)",
+          margin: "20px 0 0 0",
+        }}
         cursor={true}
       />
 
