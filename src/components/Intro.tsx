@@ -3,7 +3,11 @@ import { TypeAnimation } from "react-type-animation";
 import { CaretDown, CaretDownFill } from "react-bootstrap-icons";
 import "../styles/Intro.css";
 
-import Chemical from "../assets/chemical.svg";
+import Js from "../assets/js.svg";
+import Python from "../assets/python.svg";
+import Excel from "../assets/excel.svg";
+import Reactjs from "../assets/react.svg";
+import Firebase from "../assets/firebase.svg";
 
 function Intro(props: any) {
   const [hover, setHover] = useState(false);
@@ -27,10 +31,18 @@ function Intro(props: any) {
         ]}
         wrapper="div"
         repeat={Infinity}
-        style={{ fontSize: "16px" }}
+        style={{ fontSize: "2rem" }}
         cursor={true}
       />
-      <img id="svg-molecule" src={Chemical} alt="molecule" />
+
+      <div className="icon-grid">
+        <img className="svg" src={Js} alt="js" />
+        <img className="svg" src={Python} alt="js" />
+        <img className="svg" src={Excel} alt="js" />
+        <img className="svg" src={Reactjs} alt="js" />
+        <img className="svg" src={Firebase} alt="js" />
+      </div>
+
       <div
         className="down-arrow"
         onMouseEnter={() => setHover(true)}
@@ -39,7 +51,6 @@ function Intro(props: any) {
       >
         {hover ? <CaretDownFill size={30} /> : <CaretDown size={30} />}
       </div>
-      {/* <TSParticles /> */}
     </div>
   );
 }
