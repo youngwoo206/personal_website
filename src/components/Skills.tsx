@@ -51,11 +51,11 @@ function Skills() {
                 skill1="JavaScript"
                 stars1={[1, 1, 1, 1, 0.5]}
                 skill2="Responsive Web Design"
-                stars2={[1, 1, 1, 0.5]}
+                stars2={[1, 1, 1, 1]}
                 skill3="Backend Technologies"
-                stars3={[1, 1, 1]}
+                stars3={[1, 1, 1, 0.5]}
               >
-                <div>hello</div>
+                <div className="skills-list">hello</div>
               </TopSkills>
             </div>
 
@@ -69,7 +69,7 @@ function Skills() {
                 skill3="SQL & DBMS"
                 stars3={[1, 1, 1]}
               >
-                <div>hello</div>
+                <div className="skills-list">hello</div>
               </TopSkills>
             </div>
 
@@ -83,7 +83,7 @@ function Skills() {
                 skill3="CAD Technologies"
                 stars3={[1, 1, 1, 1, 0]}
               >
-                <div>hello</div>
+                <div className="skills-list">hello</div>
               </TopSkills>
             </div>
           </div>

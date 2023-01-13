@@ -5,6 +5,7 @@ import Intro from "../components/Intro";
 import AboutMe from "../components/AboutMe";
 import Skills from "../components/Skills";
 import Footer from "../components/Footer";
+import Certs from "../components/Certs";
 
 function Home() {
   const body = useRef(null);
@@ -25,6 +26,9 @@ function Home() {
       </div>
       <div ref={skill}>
         <Skills />
+      </div>
+      <div>
+        <Certs />
       </div>
       <Footer />
     </div>

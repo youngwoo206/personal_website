@@ -1,0 +1,15 @@
+.certs{
+    background-color: #171718;
+    padding-top: 100px;
+    height: auto;
+    text-align: center;
+}
+
+h1{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.accent{
+    color: var(--accent);
+  }
