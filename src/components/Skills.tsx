@@ -133,43 +133,77 @@ function Skills() {
               <TopSkills
                 skill1="Python"
                 stars1={[1, 1, 1, 1]}
-                skill2="DS & Algorithms"
+                skill2="SQL & DBMS"
                 stars2={[1, 1, 1, 0.5]}
-                skill3="SQL & DBMS"
+                skill3="DS & Algorithms"
                 stars3={[1, 1, 1]}
               >
                 <table className="skills-table">
                   <tr>
                     <td className="cell">
-                      <li>
-                        <span className="skill-li"></span>
+                      <li className="dot-accent1">
+                        <span className="skill-li">Pandas</span>
                       </li>
                     </td>
                     <td className="cell">
-                      <li>
-                        <span className="skill-li"></span>
+                      <li className="dot-accent1">
+                        <span className="skill-li">PyTorch</span>
                       </li>
                     </td>
                     <td className="cell">
-                      <li>
-                        <span className="skill-li"></span>
+                      <li className="dot-accent1">
+                        <span className="skill-li">PyXLL</span>
                       </li>
                     </td>
                   </tr>
                   <tr>
                     <td className="cell">
-                      <li>
-                        <span className="skill-li"></span>
+                      <li className="dot-accent2">
+                        <span className="skill-li">MongoDB</span>
+                      </li>
+                    </td>
+                    <td className="cell">
+                      <li className="dot-accent2">
+                        <span className="skill-li">Firebase</span>
+                      </li>
+                    </td>
+                    <td className="cell">
+                      <li className="dot-accent2">
+                        <span className="skill-li">MS Access</span>
+                      </li>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td className="cell">
+                      <li className="dot-accent2">
+                        <span className="skill-li">SQL</span>
+                      </li>
+                    </td>
+                    <td className="cell">
+                      <li className="dot-accent2">
+                        <span className="skill-li">PostgreSQL</span>
+                      </li>
+                    </td>
+                    <td className="cell">
+                      <li className="dot-accent3">
+                        <span className="skill-li">Merge Sort</span>
+                      </li>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td className="cell">
+                      <li className="dot-accent3">
+                        <span className="skill-li">Hash Tables</span>
                       </li>
                     </td>
                     <td className="cell">
                       <li>
-                        <span className="skill-li"></span>
+                        <span className="skill-li">Java</span>
                       </li>
                     </td>
                     <td className="cell">
                       <li>
-                        <span className="skill-li"></span>
+                        <span className="skill-li">Git</span>
                       </li>
                     </td>
                   </tr>
@@ -181,44 +215,78 @@ function Skills() {
               <h2>Engineering</h2>
               <TopSkills
                 skill1="Microsoft Excel"
-                stars1={[1, 1, 1, 1, 0.5]}
-                skill2="VBA & Macros"
-                stars2={[1, 1, 1, 1, 0.5]}
-                skill3="CAD Technologies"
+                stars1={[1, 1, 1, 1, 1]}
+                skill2="Hardware Engineering"
+                stars2={[1, 1, 1, 0.5]}
+                skill3="Computer Assisted Design"
                 stars3={[1, 1, 1, 1, 0]}
               >
                 <table className="skills-table">
                   <tr>
                     <td className="cell">
-                      <li>
-                        <span className="skill-li"></span>
+                      <li className="dot-accent1">
+                        <span className="skill-li">VBA Macros</span>
                       </li>
                     </td>
                     <td className="cell">
-                      <li>
-                        <span className="skill-li"></span>
+                      <li className="dot-accent1">
+                        <span className="skill-li">Pivot Tables</span>
                       </li>
                     </td>
                     <td className="cell">
-                      <li>
-                        <span className="skill-li"></span>
+                      <li className="dot-accent1">
+                        <span className="skill-li">Pandas</span>
                       </li>
                     </td>
                   </tr>
                   <tr>
                     <td className="cell">
-                      <li>
-                        <span className="skill-li"></span>
+                      <li className="dot-accent1">
+                        <span className="skill-li">PyXLL</span>
                       </li>
                     </td>
                     <td className="cell">
-                      <li>
-                        <span className="skill-li"></span>
+                      <li className="dot-accent2">
+                        <span className="skill-li">Arduino</span>
                       </li>
                     </td>
                     <td className="cell">
-                      <li>
-                        <span className="skill-li"></span>
+                      <li className="dot-accent2">
+                        <span className="skill-li">Circuits</span>
+                      </li>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td className="cell">
+                      <li className="dot-accent2">
+                        <span className="skill-li">Soldering</span>
+                      </li>
+                    </td>
+                    <td className="cell">
+                      <li className="dot-accent3">
+                        <span className="skill-li">SOLIDWORKS</span>
+                      </li>
+                    </td>
+                    <td className="cell">
+                      <li className="dot-accent3">
+                        <span className="skill-li">AutoCAD</span>
+                      </li>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td className="cell">
+                      <li className="dot-accent3">
+                        <span className="skill-li">Simulink</span>
+                      </li>
+                    </td>
+                    <td className="cell">
+                      <li className="dot-accent3">
+                        <span className="skill-li">Plant 3D</span>
+                      </li>
+                    </td>
+                    <td className="cell">
+                      <li className="dot-accent3">
+                        <span className="skill-li">Solid Edge</span>
                       </li>
                     </td>
                   </tr>
