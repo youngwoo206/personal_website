@@ -4,6 +4,7 @@
     text-align: center;
     justify-content: center;
     background-color: #171718;
+    padding-top: 100px;
 }
 
 .skills-grid{
@@ -46,13 +47,18 @@
     box-sizing: content-box;
     position: relative;
     outline: none;
-    border: black solid 1px;
+    border: black solid 2px;
     border-radius: 20px;
     margin-left: 10px;
+    color: var(--font)
+}
+
+.accent{
+  color: var(--accent);
 }
   
 .active-tabs{
-  background-color: aliceblue;
+  outline: var(--accent) solid 2px;
 }
 
   .content-tabs {
@@ -64,8 +70,9 @@
     width: 100%;
     height: 100%;
     display: none;
-    border: solid black 1px;
+    border: solid black 2px;
     border-radius: 20px;
+    color: var(--font)
   }
   .content h2 {
     padding: 0px 0 5px 0px;

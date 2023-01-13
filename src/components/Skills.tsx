@@ -14,7 +14,10 @@ function Skills() {
 
   return (
     <div className="skills">
-      <h1>My Skills:</h1>
+      <h1>
+        <span className="accent">~</span>My Skills
+        <span className="accent">~</span>
+      </h1>
 
       <div className="skills-grid">
         <TextSphere />
@@ -25,19 +28,19 @@ function Skills() {
               className={tab === 1 ? "tabs active-tabs" : "tabs"}
               onClick={() => toggleTab(1)}
             >
-              Web Dev
+              <h5>Web Dev</h5>
             </div>
             <div
               className={tab === 2 ? "tabs active-tabs" : "tabs"}
               onClick={() => toggleTab(2)}
             >
-              Software
+              <h5>Software</h5>
             </div>
             <div
               className={tab === 3 ? "tabs active-tabs" : "tabs"}
               onClick={() => toggleTab(3)}
             >
-              Engineering
+              <h5>Engineering</h5>
             </div>
           </div>
 

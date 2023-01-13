@@ -3,3 +3,7 @@
     justify-content: center;
     /* background-color: aqua; */
 }
+
+.tagcloud{
+    color: var(--font)
+}

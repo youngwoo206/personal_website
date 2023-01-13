@@ -18,12 +18,11 @@ function AboutMe() {
           and team environments.
         </p>
         <p>
-          As for my interests, I generally find myself drawn to all things
-          engineering. Anything from programming to soldering, planes, cars,
-          robotics and more all catch my attention. Aside from that I like to
-          play basketball, hockey, and strategy games. I also have 2 pet dogs
-          and can be bribed to do pretty much anything in exchange for some
-          McDonald's.
+          As for my interests, I'm fascinated with all things engineering.
+          Anything from programming to soldering, planes, cars, robotics and
+          more all catch my attention. Aside from that I like to play
+          basketball, hockey, and strategy games. I also have 2 pet dogs and can
+          be bribed to do pretty much anything in exchange for some McDonald's.
         </p>
         <p>
           Please feel free to contact me anytime! You can find my contact
