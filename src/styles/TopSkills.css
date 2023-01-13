@@ -1,7 +1,6 @@
 .top-skills{
     display: flex;
     flex-direction: column;
-    width: 90%;
     margin-left: auto;
     margin-right: auto;
     font-size: 1.2rem;
@@ -17,7 +16,7 @@ tr{
     height: 30px;
 }
 
-table td {
+.top-skills-table td {
     /* border: 1px solid black; */
     width: 60%;
     vertical-align: bottom;
@@ -25,9 +24,28 @@ table td {
 
 .td1{
     text-align: right;
+    /* text-decoration: solid underline var(--accent) 2px; */
 }
 
 .td2{
+    text-align: left;
+    padding-left: 10px;
+}
+
+.td3{
+    text-align: right;
+}
+
+.td4{
+    text-align: left;
+    padding-left: 10px;
+}
+
+.td5{
+    text-align: right;
+}
+
+.td6{
     text-align: left;
     padding-left: 10px;
 }

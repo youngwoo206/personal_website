@@ -55,7 +55,76 @@ function Skills() {
                 skill3="Backend Technologies"
                 stars3={[1, 1, 1, 0.5]}
               >
-                <div className="skills-list">hello</div>
+                <table className="skills-table">
+                  <tr>
+                    <td className="cell">
+                      <li className="dot-accent1">
+                        <span className="skill-li">React.js</span>
+                      </li>
+                    </td>
+                    <td className="cell">
+                      <li className="dot-accent1">
+                        <span className="skill-li">Node.js</span>
+                      </li>
+                    </td>
+                    <td className="cell">
+                      <li className="dot-accent1">
+                        <span className="skill-li">TypeScript</span>
+                      </li>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td className="cell">
+                      <li className="dot-accent1">
+                        <span className="skill-li">Express.js</span>
+                      </li>
+                    </td>
+                    <td className="cell">
+                      <li className="dot-accent1">
+                        <span className="skill-li">React Native</span>
+                      </li>
+                    </td>
+                    <td className="cell">
+                      <li className="dot-accent1">
+                        <span className="skill-li">Redux</span>
+                      </li>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td className="cell">
+                      <li className="dot-accent2">
+                        <span className="skill-li">CSS & SASS</span>
+                      </li>
+                    </td>
+                    <td className="cell">
+                      <li className="dot-accent2">
+                        <span className="skill-li">Tailwind CSS</span>
+                      </li>
+                    </td>
+                    <td className="cell">
+                      <li className="dot-accent2">
+                        <span className="skill-li">Bootstrap</span>
+                      </li>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td className="cell">
+                      <li className="dot-accent3">
+                        <span className="skill-li">Firebase</span>
+                      </li>
+                    </td>
+                    <td className="cell">
+                      <li className="dot-accent3">
+                        <span className="skill-li">MongoDB</span>
+                      </li>
+                    </td>
+                    <td className="cell">
+                      <li className="dot-accent3">
+                        <span className="skill-li">PostgreSQL</span>
+                      </li>
+                    </td>
+                  </tr>
+                </table>
               </TopSkills>
             </div>
 
@@ -69,7 +138,42 @@ function Skills() {
                 skill3="SQL & DBMS"
                 stars3={[1, 1, 1]}
               >
-                <div className="skills-list">hello</div>
+                <table className="skills-table">
+                  <tr>
+                    <td className="cell">
+                      <li>
+                        <span className="skill-li"></span>
+                      </li>
+                    </td>
+                    <td className="cell">
+                      <li>
+                        <span className="skill-li"></span>
+                      </li>
+                    </td>
+                    <td className="cell">
+                      <li>
+                        <span className="skill-li"></span>
+                      </li>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td className="cell">
+                      <li>
+                        <span className="skill-li"></span>
+                      </li>
+                    </td>
+                    <td className="cell">
+                      <li>
+                        <span className="skill-li"></span>
+                      </li>
+                    </td>
+                    <td className="cell">
+                      <li>
+                        <span className="skill-li"></span>
+                      </li>
+                    </td>
+                  </tr>
+                </table>
               </TopSkills>
             </div>
 
@@ -83,7 +187,42 @@ function Skills() {
                 skill3="CAD Technologies"
                 stars3={[1, 1, 1, 1, 0]}
               >
-                <div className="skills-list">hello</div>
+                <table className="skills-table">
+                  <tr>
+                    <td className="cell">
+                      <li>
+                        <span className="skill-li"></span>
+                      </li>
+                    </td>
+                    <td className="cell">
+                      <li>
+                        <span className="skill-li"></span>
+                      </li>
+                    </td>
+                    <td className="cell">
+                      <li>
+                        <span className="skill-li"></span>
+                      </li>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td className="cell">
+                      <li>
+                        <span className="skill-li"></span>
+                      </li>
+                    </td>
+                    <td className="cell">
+                      <li>
+                        <span className="skill-li"></span>
+                      </li>
+                    </td>
+                    <td className="cell">
+                      <li>
+                        <span className="skill-li"></span>
+                      </li>
+                    </td>
+                  </tr>
+                </table>
               </TopSkills>
             </div>
           </div>

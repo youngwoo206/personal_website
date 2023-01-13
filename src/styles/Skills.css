@@ -12,7 +12,7 @@
   margin-top: 20px;
   max-width: 90%;
   display: grid;
-  gap: 1rem;
+  gap: 5rem;
   /* background-color: aliceblue; */
   align-items: center;
 }
@@ -27,7 +27,7 @@
     display: flex;
     flex-direction: column;
     position: relative;
-    width: 450px;
+    width: 500px;
     height: 400px;
     /* border: red 1px solid; */
     margin-left: auto;
@@ -55,6 +55,14 @@
 
 .accent{
   color: var(--accent);
+}
+
+.accent2{
+  color: var(--accent2);
+}
+
+.accent3{
+  color: var(--accent3);
 }
   
 .active-tabs{
@@ -91,7 +99,39 @@
     display: block;
   }
   
-.skills-list{
+.skills-table{
   font-size: 1.1rem;
-  padding-top: 12px;
+  margin-top: 20px;
+  /* border: 1px solid white; */
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+td{
+  /* border: 1px solid white; */
+  width: 33.3%;
+  text-align: left;
+}
+
+li{
+  padding-left: 5px;
+}
+
+.dot-accent1{
+  color: var(--accent);
+}
+
+.dot-accent2{
+  color: var(--accent2);
+}
+
+.dot-accent3{
+  color: var(--accent3);
+}
+
+
+.skill-li{
+  position: relative;
+  left: -9px;
+  color: var(--font);
 }
