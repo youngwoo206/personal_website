@@ -1,0 +1,87 @@
+.experience{
+    background-color: #171718;
+    padding-top: 100px;
+    height: auto;
+    text-align: center;
+}
+
+.experience-content{
+    margin-bottom: 100px;
+}
+
+h1{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.accent{
+    color: var(--accent);
+  }
+
+  .jobcard{
+    width: 51%;
+    display: inline-flex;
+    border-radius: 20px;
+    border: 2px solid black;  
+    margin-top: 30px;
+  }
+  
+  .icons-div{
+    /* background-color: aqua; */
+    width: 25%;
+  }
+
+  .jobs-div{
+    /* background-color: blueviolet; */
+    width: 75%;
+    text-align: left;
+    padding-left: 30px;
+    padding-top: 40px;
+  }
+
+  .job-pic{
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    border: black 2px solid;
+  }
+
+  h3{
+    font-size: 2.4rem;
+    color: var(--font);
+  }
+
+  h4{
+    font-size: 1.8rem;
+    color: var(--font);
+  }
+
+  .date{
+    color: rgb(177, 177, 177);
+    font-size: 1.1rem;
+    font-style: italic;
+  }
+
+  .tech{
+    font-size: 1.3rem;
+    color: rgb(177, 177, 177);
+    font-style: italic;
+  }
+
+  .tech-list{
+    font-style: italic;
+    font-size: 1.3rem;
+  }
+
+  .job-des{
+    font-size: 1.2rem;
+    width: 95%;
+    text-align: justify;
+  }
+
+  .job-des-div{
+    margin-bottom: 40px;
+  }

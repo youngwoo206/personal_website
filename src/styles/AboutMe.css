@@ -14,6 +14,11 @@ p{
   color: var(--accent);
 }
 
+.link:hover{
+  cursor: pointer;
+  text-decoration: underline var(--font);
+}
+
 .about-me-text{
   width: 75%;
   margin-top: 30px;
@@ -28,7 +33,10 @@ p{
   border-radius: 300px;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 40px;
+  margin-top: 50px;
   margin-bottom: 40px;
   background-color: aliceblue;
+  background-image: url("../assets//me.jpeg");
+  background-size: cover;
+  border: black 2px solid;
 }

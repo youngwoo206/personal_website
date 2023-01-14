@@ -1,7 +1,7 @@
 import React from "react";
 import "../styles/AboutMe.css";
 
-function AboutMe() {
+function AboutMe(props: any) {
   return (
     <div className="about-me">
       <h1>
@@ -26,7 +26,13 @@ function AboutMe() {
         </p>
         <p>
           Please feel free to contact me anytime! You can find my contact
-          information <span className="accent">here</span>
+          information{" "}
+          <span
+            className="accent link"
+            onClick={() => props.scrollToSection(props.footer)}
+          >
+            here
+          </span>
         </p>
       </div>
     </div>
