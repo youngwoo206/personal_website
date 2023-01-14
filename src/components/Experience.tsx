@@ -85,7 +85,22 @@ function Experience() {
             </p>
             <p className="job-des">
               By the end of the term, I was able to get published as a co-author
-              in 2 separate academic papers.
+              in 2 separate academic papers. These papers can be found{" "}
+              <span>
+                <a href="https://www.mdpi.com/2571-8797/3/2/28" target="_blank">
+                  here
+                </a>
+              </span>{" "}
+              and{" "}
+              <span>
+                <a
+                  href="https://www.mdpi.com/1996-1073/14/16/4956"
+                  target="_blank"
+                >
+                  here
+                </a>
+                .
+              </span>
             </p>
           </div>
         </JobCard>
