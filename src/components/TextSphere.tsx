@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+// @ts-ignore
 import TagCloud from "tagcloud";
 
 function TextSphere() {
