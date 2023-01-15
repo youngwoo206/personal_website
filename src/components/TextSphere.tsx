@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 // @ts-ignore
-import TagCloud from "tagcloud";
+import tagcloud from "tagcloud";
 
 function TextSphere() {
   useEffect(() => {
@@ -34,7 +34,7 @@ function TextSphere() {
         keep: false,
       };
 
-      TagCloud(container, text, options);
+      tagcloud(container, text, options);
     };
   }, []);
 
