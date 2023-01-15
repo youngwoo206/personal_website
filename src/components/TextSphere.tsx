@@ -1,11 +1,11 @@
 import React, { useEffect } from "react";
 // @ts-ignore
-import tagcloud from "tagcloud";
+import TagCloud from "TagCloud";
 
 function TextSphere() {
   useEffect(() => {
     return () => {
-      const container: any = ".tagcloud";
+      const container: any = ".TagCloud";
       const text = [
         "HTML",
         "CSS",
@@ -34,13 +34,13 @@ function TextSphere() {
         keep: false,
       };
 
-      tagcloud(container, text, options);
+      TagCloud(container, text, options);
     };
   }, []);
 
   return (
     <div className="text-sphere">
-      <span className="tagcloud"></span>
+      <span className="TagCloud"></span>
     </div>
   );
 }
