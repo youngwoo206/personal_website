@@ -4,7 +4,7 @@ import TagCloud from "tagcloud";
 function TextSphere() {
   useEffect(() => {
     return () => {
-      const container = ".tagcloud";
+      const container: any = ".tagcloud";
       const text = [
         "HTML",
         "CSS",
@@ -26,7 +26,7 @@ function TextSphere() {
         "Redux",
         "Git",
       ];
-      const options = {
+      const options: any = {
         radius: 280,
         maxSpeed: "slow",
         initSpeed: "none",
