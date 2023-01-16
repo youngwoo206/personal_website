@@ -6,23 +6,33 @@ function TagCloudComponent() {
     <div>
       <TagCloud
         options={(w: Window & typeof globalThis): TagCloudOptions => ({
-          radius: Math.min(500, w.innerWidth, w.innerHeight) / 2,
-          maxSpeed: "fast",
+          radius: Math.min(560, w.innerWidth, w.innerHeight) / 2,
+          maxSpeed: "normal",
+          keep: false,
         })}
         onClick={(tag: string, ev: MouseEvent) => alert(tag)}
         onClickOptions={{ passive: true }}
       >
         {[
-          "VSCode",
+          "HTML",
+          "CSS",
+          "JavaScript",
           "TypeScript",
+          "SASS",
+          "Tailwind CSS",
+          "Bootstrap",
+          "Python",
+          "Data Structures",
+          "Algorithms",
           "React",
-          "Preact",
-          "Parcel",
-          "Jest",
-          "Next",
-          "ESLint",
-          "Framer Motion",
-          "Three.js",
+          "Node.js",
+          "React Native",
+          "Firebase",
+          "SQL",
+          "VBA",
+          "Java",
+          "Redux",
+          "Git",
         ]}
       </TagCloud>
     </div>
