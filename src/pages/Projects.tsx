@@ -1,9 +1,12 @@
-import React from 'react'
+import React from "react";
+import InProgress from "../components/InProgress";
 
 function Projects() {
   return (
-    <div>Projects</div>
-  )
+    <div>
+      <InProgress />
+    </div>
+  );
 }
 
-export default Projects
+export default Projects;

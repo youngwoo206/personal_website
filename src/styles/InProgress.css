@@ -1,0 +1,23 @@
+.progress{
+    background-color: #171718;
+    height: 100vh;
+    border-radius: 0%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.gear{
+    margin-bottom: 40px;
+    animation: rotation 6s infinite linear;
+}
+
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
