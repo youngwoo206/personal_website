@@ -4,6 +4,7 @@ import "../styles/Skills.css";
 
 import TextSphere from "./TextSphere";
 import TopSkills from "./TopSkills";
+import TagCloudComponent from "./TagCloudComponent";
 
 function Skills() {
   const [tab, setTab] = useState(1);
@@ -20,7 +21,8 @@ function Skills() {
       </h1>
 
       <div className="skills-grid">
-        <TextSphere />
+        {/* <TextSphere /> */}
+        <TagCloudComponent />
 
         <div className="skill-container">
           <div className="bloc-tabs">

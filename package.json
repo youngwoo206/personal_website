@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@frank-mayer/react-tag-cloud": "^1.1.1",
     "@react-spring/parallax": "^9.6.1",
     "@typescript-eslint/parser": "^5.48.1",
     "bootstrap": "^5.2.3",

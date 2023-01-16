@@ -39,8 +39,10 @@ function TextSphere() {
   }, []);
 
   return (
-    <div className="text-sphere">
-      <span className="TagCloud"></span>
+    <div className="text-sphere-outer">
+      <div>
+        <span className="TagCloud"></span>
+      </div>
     </div>
   );
 }
