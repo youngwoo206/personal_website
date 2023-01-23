@@ -48,6 +48,7 @@
     position: relative;
     outline: none;
     border: black solid 2px;
+    background-color: #212529;
     border-radius: 20px;
     margin-left: 10px;
     color: var(--font)
@@ -80,7 +81,8 @@
     display: none;
     border: solid black 2px;
     border-radius: 20px;
-    color: var(--font)
+    color: var(--font);
+    background-color: #212529;
   }
   .content h2 {
     padding: 0px 0 5px 0px;
