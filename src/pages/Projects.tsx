@@ -1,10 +1,16 @@
 import React from "react";
 import InProgress from "../components/InProgress";
 
+import Highlights from "../components/Highlights";
+import ProjectGrid from "../components/ProjectGrid";
+import Footer from "../components/Footer";
+
 function Projects() {
   return (
     <div>
-      <InProgress />
+      <Highlights />
+      <ProjectGrid />
+      <Footer />
     </div>
   );
 }
