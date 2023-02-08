@@ -4,7 +4,7 @@ import Navbar from "react-bootstrap/Navbar";
 import { useState, useEffect } from "react";
 import "../styles/Navbar.css";
 
-import resume from "../assets/YoungwooLee2023.pdf";
+import resume from "../assets/Youngwoo_Lee2023.pdf";
 
 function Navigation() {
   const [show, setShow] = useState(true);
@@ -39,7 +39,7 @@ function Navigation() {
             </Nav.Link>
           </Nav>
           <Nav>
-            <a href={resume} download="YoungwooLee2023.pdf">
+            <a href={resume} download="Youngwoo_Lee2023.pdf">
               Resume
             </a>
           </Nav>
