@@ -36,7 +36,7 @@ p{
   margin-top: 50px;
   margin-bottom: 40px;
   background-color: aliceblue;
-  background-image: url("../assets//me.jpeg");
+  background-image: url("../assets//me.jpg");
   background-size: cover;
   border: black 2px solid;
 }
