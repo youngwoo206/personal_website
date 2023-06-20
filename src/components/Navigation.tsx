@@ -39,7 +39,7 @@ function Navigation() {
             </Nav.Link>
           </Nav>
           <Nav>
-            <a href={resume} download="Youngwoo_Lee2023.pdf">
+            <a href={resume} download="YoungwooLeeSP2023.pdf">
               Resume
             </a>
           </Nav>

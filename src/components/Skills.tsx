@@ -55,7 +55,7 @@ function Skills() {
                 skill2="Responsive Web Design"
                 stars2={[1, 1, 1, 1]}
                 skill3="Backend Technologies"
-                stars3={[1, 1, 1, 0.5]}
+                stars3={[1, 1, 1, 1]}
               >
                 <table className="skills-table">
                   <tr>
@@ -83,7 +83,7 @@ function Skills() {
                     </td>
                     <td className="cell">
                       <li className="dot-accent1">
-                        <span className="skill-li">React Native</span>
+                        <span className="skill-li">Vue.js</span>
                       </li>
                     </td>
                     <td className="cell">
@@ -105,14 +105,14 @@ function Skills() {
                     </td>
                     <td className="cell">
                       <li className="dot-accent2">
-                        <span className="skill-li">Bootstrap</span>
+                        <span className="skill-li">Material UI</span>
                       </li>
                     </td>
                   </tr>
                   <tr>
                     <td className="cell">
                       <li className="dot-accent3">
-                        <span className="skill-li">Firebase</span>
+                        <span className="skill-li">Flask</span>
                       </li>
                     </td>
                     <td className="cell">
@@ -122,7 +122,7 @@ function Skills() {
                     </td>
                     <td className="cell">
                       <li className="dot-accent3">
-                        <span className="skill-li">PostgreSQL</span>
+                        <span className="skill-li">MySQL</span>
                       </li>
                     </td>
                   </tr>
